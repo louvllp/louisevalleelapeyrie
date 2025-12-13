@@ -108,3 +108,48 @@ footer {
 li {
   color: #8b95a5 !important;
 }
+
+/* ===============================
+   SUPPRESSION DES PANNEAUX GRIS LATÉRAUX
+================================ */
+
+/* Conteneurs du thème */
+.wrapper,
+.container,
+.inner,
+#main,
+#content,
+.page-content {
+  background: #000000 !important;
+  max-width: 100% !important;
+}
+
+/* Faux panneaux latéraux (dégradés) */
+body::before,
+body::after,
+.wrapper::before,
+.wrapper::after {
+  display: none !important;
+  background: none !important;
+}
+
+/* Centrage sans bandes grises */
+body {
+  background: #000000 !important;
+}
+
+/* Header du thème (barre du haut) */
+header,
+.site-header,
+#header {
+  background: #000000 !important;
+  border: none !important;
+}
+
+/* Footer */
+footer,
+.site-footer {
+  background: #000000 !important;
+  border: none !important;
+}
+
