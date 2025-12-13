@@ -158,14 +158,24 @@ footer,
   border: none !important;
 }
 /* ===============================
-   VIDEO — RENDU CINÉMA
+   YOUTUBE — RENDU CINÉMA
 ================================ */
 
 .video-cinema {
-  display: block;
-  width: 100%;
   max-width: 880px;
   margin: 3rem auto;
-  background: #000000;
+  position: relative;
+  padding-top: 56.25%; /* format cinéma 16:9 */
+  background: #000;
   border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-cinema iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
