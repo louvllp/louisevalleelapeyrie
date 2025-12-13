@@ -37,4 +37,46 @@ h1, h2, h3, h4, h5 {
 }
 
 /* ===============================
-   LI
+   LIENS
+================================ */
+
+a {
+  color: #2f4a7d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8b95a5;
+  text-decoration: underline;
+}
+
+/* ===============================
+   BORDURES & OMBRES (FIX)
+================================ */
+
+/* Supprimer toutes les bordures grises */
+* {
+  border-color: #000000 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Séparateurs volontairement subtils */
+hr {
+  border: none;
+  border-top: 1px solid #1f2a44;
+  margin: 3rem 0;
+}
+
+/* Header ultra clean */
+header {
+  border-bottom: 1px solid #1f2a44 !important;
+}
+
+/* ===============================
+   LISTES
+================================ */
+
+li {
+  color: #8b95a5;
+}
