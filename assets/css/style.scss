@@ -14,7 +14,10 @@ main,
 header,
 footer,
 section,
-div {
+div,
+article,
+aside,
+nav {
   background-color: #000000 !important;
 }
 
@@ -23,7 +26,7 @@ div {
 ================================ */
 
 body {
-  color: #8b95a5;
+  color: #8b95a5 !important;
 }
 
 /* ===============================
@@ -31,7 +34,7 @@ body {
 ================================ */
 
 h1, h2, h3, h4, h5 {
-  color: #2f4a7d;
+  color: #2f4a7d !important;
   font-weight: 500;
   letter-spacing: 0.03em;
 }
@@ -41,36 +44,61 @@ h1, h2, h3, h4, h5 {
 ================================ */
 
 a {
-  color: #2f4a7d;
+  color: #2f4a7d !important;
   text-decoration: none;
 }
 
 a:hover {
-  color: #8b95a5;
+  color: #8b95a5 !important;
   text-decoration: underline;
 }
 
 /* ===============================
-   BORDURES & OMBRES (FIX)
+   BORDURES — ÉRADICATION TOTALE DU GRIS
 ================================ */
 
-/* Supprimer toutes les bordures grises */
-* {
+/* TOUTES les bordures visibles */
+*,
+*::before,
+*::after {
   border-color: #000000 !important;
   box-shadow: none !important;
   outline: none !important;
 }
 
-/* Séparateurs volontairement subtils */
+/* Inputs / boutons / formulaires */
+input,
+textarea,
+select,
+button {
+  background-color: #000000 !important;
+  color: #8b95a5 !important;
+  border: 1px solid #000000 !important;
+}
+
+/* Tables */
+table,
+th,
+td {
+  background-color: #000000 !important;
+  border: 1px solid #000000 !important;
+}
+
+/* Séparateurs */
 hr {
-  border: none;
-  border-top: 1px solid #1f2a44;
+  border: none !important;
+  border-top: 1px solid #000000 !important;
   margin: 3rem 0;
 }
 
-/* Header ultra clean */
+/* Header */
 header {
-  border-bottom: 1px solid #1f2a44 !important;
+  border-bottom: 1px solid #000000 !important;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #000000 !important;
 }
 
 /* ===============================
@@ -78,5 +106,5 @@ header {
 ================================ */
 
 li {
-  color: #8b95a5;
+  color: #8b95a5 !important;
 }
