@@ -3,57 +3,38 @@
 
 @import "{{ site.theme }}";
 
-/* FORCER LE NOIR PARTOUT */
-html, body {
-  background-color: #000000 !important;
-}
+/* ===============================
+   NOIR ABSOLU PARTOUT
+================================ */
 
-/* Conteneurs du thème Midnight */
+html, body,
 .page-content,
 .wrapper,
 main,
 header,
 footer,
-section {
+section,
+div {
   background-color: #000000 !important;
 }
 
-/* TEXTE */
+/* ===============================
+   TEXTE
+================================ */
+
 body {
   color: #8b95a5;
 }
 
-/* TITRES */
+/* ===============================
+   TITRES
+================================ */
+
 h1, h2, h3, h4, h5 {
   color: #2f4a7d;
   font-weight: 500;
   letter-spacing: 0.03em;
 }
 
-/* LIENS */
-a {
-  color: #2f4a7d;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #8b95a5;
-  text-decoration: underline;
-}
-
-/* PARAGRAPHES */
-p, li {
-  color: #8b95a5;
-}
-
-/* SÉPARATEURS */
-hr {
-  border: none;
-  border-top: 1px solid #1f2a44;
-  margin: 3rem 0;
-}
-
-/* HEADER */
-header {
-  border-bottom: 1px solid #1f2a44;
-}
+/* ===============================
+   LI
