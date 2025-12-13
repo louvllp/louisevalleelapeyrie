@@ -17,7 +17,7 @@ Je m'appelle Louise Vallée--Lapeyrie, j'ai 22 ans, et je suis vidéaste. Je ré
 ### Projets en tant que Cheffe Opératrice de Prise de vue
 
 #### Faire Chambre — *Documentaire* (2023)
-html 
+
 <div class="video-cinema">
   <iframe
     src="https://www.youtube.com/embed/ID_DE_LA_VIDEO"
