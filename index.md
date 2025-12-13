@@ -1,9 +1,12 @@
 # Bienvenue sur mon portfolio audiovisuel !
 
+
 ## About Me
 Je suis une jeune vidéaste de 22 ans. 
 Je réalise, je filme, je monte, mais je suis aussi assistante caméra et électro sur des tournages de fiction, pub et clip. 
 
+
+# MES PROJETS
 
 
 ## Projets en tant que Vidéaste 
