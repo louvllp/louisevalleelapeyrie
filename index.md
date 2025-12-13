@@ -1,22 +1,40 @@
-# Louise Vallée--Lapeyrie - Portfolio Audiovisuel
-Bienvenue sur mon portfolio. 
-Je m'appelle Louise Vallée--Lapeyrie, j'ai 22 ans, et je suis vidéaste. Je réalise, je filme, je monte, mais je suis aussi assistante caméra et électro sur des tournages de fiction, pub et clip. 
+# Bienvenue sur mon portfolio audiovisuel !
 
-### Projets en tant que Vidéaste 
+## About Me
+Je suis une jeune vidéaste de 22 ans. 
+Je réalise, je filme, je monte, mais je suis aussi assistante caméra et électro sur des tournages de fiction, pub et clip. 
+
+## Projets en tant que Vidéaste 
 /
 
-### Projets en tant qu’Assistante caméra
-/
+## Projets en tant qu’Assistante caméra
 
-### Projets en tant qu’Éléctro 
-/
+### KARMEN - LIVE SESSION
+<div class="video-cinema">
+  <iframe
+    src="https://www.youtube.com/embed/fh-Hb_X0lRA&list=RDfh-Hb_X0lRA&start_radio=1"
+    title="YouTube video"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
 
-### Projets en tant que Réalisatrice 
-/
+## Projets en tant qu’Éléctro 
 
-### Projets en tant que Cheffe Opératrice de Prise de vue
+### NESLY & MIKL feat Fresh La Peufra - Enleve tout (CLIP)
+<div class="video-cinema">
+  <iframe
+    src="https://www.youtube.com/embed/oTbhQNOUp3c&list=RDoTbhQNOUp3c&start_radio=1"
+    title="YouTube video"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
 
-#### Faire Chambre — *Documentaire* (2023)
+
+## Projets en tant que Cheffe Opératrice de Prise de vue
+
+### Faire Chambre — *Documentaire* (2023)
 <div class="video-cinema">
   <iframe
     src="https://www.youtube.com/embed/Ak8PD0szaC4"
@@ -26,7 +44,7 @@ Je m'appelle Louise Vallée--Lapeyrie, j'ai 22 ans, et je suis vidéaste. Je ré
   </iframe>
 </div>
 
-#### Les Absents — *Court-métrage* (2024)
+### Les Absents — *Court-métrage* (2024)
 <div class="video-cinema">
   <iframe
     src="https://www.youtube.com/embed/vgSO0qkGX3k"
@@ -36,7 +54,10 @@ Je m'appelle Louise Vallée--Lapeyrie, j'ai 22 ans, et je suis vidéaste. Je ré
   </iframe>
 </div>
 
-#### ISSUE — *Court-métrage* (2024)
+
+## Projets en tant que Réalisatrice 
+
+### ISSUE — *Court-métrage* (2024)
 <div class="video-cinema">
   <iframe
     src="https://www.youtube.com/embed/-oH42ZTQ60Y"
@@ -46,7 +67,7 @@ Je m'appelle Louise Vallée--Lapeyrie, j'ai 22 ans, et je suis vidéaste. Je ré
   </iframe>
 </div>
 
-#### Reportage - Tobie Chevalier (2025) 
+### Reportage - Tobie Chevalier (2025) 
 <div class="video-cinema">
   <iframe
     src="https://www.youtube.com/embed/LuFOInalEbM"
@@ -56,7 +77,7 @@ Je m'appelle Louise Vallée--Lapeyrie, j'ai 22 ans, et je suis vidéaste. Je ré
   </iframe>
 </div>
 
-#### Cheers — *Documentaire* (2025)
+### Cheers — *Documentaire* (2025)
 <div class="video-cinema">
   <iframe
     src="https://www.youtube.com/embed/a8eqC6f8CvQ"
@@ -66,7 +87,7 @@ Je m'appelle Louise Vallée--Lapeyrie, j'ai 22 ans, et je suis vidéaste. Je ré
   </iframe>
 </div>
 
-#### Get Out (Remake) — *Court-métrage*
+### Get Out (Remake) — *Court-métrage*
 <div class="video-cinema">
   <iframe
     src="https://www.youtube.com/embed/5xHf_fnuT2I"
@@ -77,9 +98,9 @@ Je m'appelle Louise Vallée--Lapeyrie, j'ai 22 ans, et je suis vidéaste. Je ré
 </div>
 
 
-### Projets en tant que Cadreuse
+## Projets en tant que Cadreuse
 
-#### Le Rendez-Vous — *Chaîne YouTube* (2023)
+### Le Rendez-Vous — *Chaîne YouTube* (2023)
 <div class="video-cinema">
   <iframe
     src="https://www.youtube.com/embed/@lerendez-vous"
