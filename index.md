@@ -4,15 +4,27 @@
 Je suis une jeune vidéaste de 22 ans. 
 Je réalise, je filme, je monte, mais je suis aussi assistante caméra et électro sur des tournages de fiction, pub et clip. 
 
+
+
 ## Projets en tant que Vidéaste 
-/
+<div class="video-cinema">
+  <iframe
+    src="https://www.youtube.com/embed/DOxpVZP9kjk"
+    title="YouTube video"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
 
 ## Projets en tant qu’Assistante caméra
+
 
 ### KARMEN - LIVE SESSION
 <div class="video-cinema">
   <iframe
-    src="https://www.youtube.com/embed/fh-Hb_X0lRA&list=RDfh-Hb_X0lRA&start_radio=1"
+    src="https://www.youtube.com/embed/fh-Hb_X0lRA&list=RDfh-Hb_X0lRA"
     title="YouTube video"
     frameborder="0"
     allowfullscreen>
@@ -21,10 +33,11 @@ Je réalise, je filme, je monte, mais je suis aussi assistante caméra et élect
 
 ## Projets en tant qu’Éléctro 
 
+
 ### NESLY & MIKL feat Fresh La Peufra - Enleve tout (CLIP)
 <div class="video-cinema">
   <iframe
-    src="https://www.youtube.com/embed/oTbhQNOUp3c&list=RDoTbhQNOUp3c&start_radio=1"
+    src="https://www.youtube.com/embed/oTbhQNOUp3c&list=RDoTbhQNOUp3c"
     title="YouTube video"
     frameborder="0"
     allowfullscreen>
@@ -33,6 +46,7 @@ Je réalise, je filme, je monte, mais je suis aussi assistante caméra et élect
 
 
 ## Projets en tant que Cheffe Opératrice de Prise de vue
+
 
 ### Faire Chambre — *Documentaire* (2023)
 <div class="video-cinema">
@@ -56,6 +70,7 @@ Je réalise, je filme, je monte, mais je suis aussi assistante caméra et élect
 
 
 ## Projets en tant que Réalisatrice 
+
 
 ### ISSUE — *Court-métrage* (2024)
 <div class="video-cinema">
@@ -99,6 +114,7 @@ Je réalise, je filme, je monte, mais je suis aussi assistante caméra et élect
 
 
 ## Projets en tant que Cadreuse
+
 
 ### Le Rendez-Vous — *Chaîne YouTube* (2023)
 <div class="video-cinema">
