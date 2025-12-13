@@ -1,0 +1,45 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Fond global */
+body {
+  background-color: #0b0b0b;
+  color: #1f2a44;
+}
+
+/* Titres */
+h1, h2, h3, h4 {
+  color: #2f4a7d;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+/* Liens */
+a {
+  color: #2f4a7d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8b95a5;
+  text-decoration: underline;
+}
+
+/* Texte secondaire */
+p, li {
+  color: #8b95a5;
+}
+
+/* Navigation / header */
+header, .site-header {
+  border-bottom: 1px solid #1f2a44;
+}
+
+/* Séparateurs */
+hr {
+  border: none;
+  border-top: 1px solid #1f2a44;
+  margin: 3rem 0;
+}
