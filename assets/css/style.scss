@@ -110,46 +110,50 @@ li {
 }
 
 /* ===============================
-   SUPPRESSION DES PANNEAUX GRIS LATÉRAUX
+   RENDU CINÉMA — CENTRÉ & NOIR ABSOLU
 ================================ */
 
-/* Conteneurs du thème */
-.wrapper,
-.container,
-.inner,
-#main,
-#content,
-.page-content {
-  background: #000000 !important;
-  max-width: 100% !important;
-}
-
-/* Faux panneaux latéraux (dégradés) */
-body::before,
-body::after,
-.wrapper::before,
-.wrapper::after {
-  display: none !important;
-  background: none !important;
-}
-
-/* Centrage sans bandes grises */
+/* Fond global (y compris les côtés) */
+html,
 body {
   background: #000000 !important;
 }
 
-/* Header du thème (barre du haut) */
-header,
-.site-header,
-#header {
+/* Conteneur principal */
+.wrapper,
+.container,
+.inner,
+#main,
+.page-content {
   background: #000000 !important;
-  border: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-/* Footer */
+/* Largeur cinéma */
+.inner,
+.container {
+  max-width: 880px !important;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+/* Suppression définitive des panneaux / dégradés */
+body::before,
+body::after,
+.wrapper::before,
+.wrapper::after {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+}
+
+/* Header & footer clean */
+header,
+.site-header,
+#header,
 footer,
 .site-footer {
   background: #000000 !important;
   border: none !important;
 }
-
