@@ -1,12 +1,20 @@
 ---
 ---
-
 @import "{{ site.theme }}";
 
 /* ===============================
-   NOIR ABSOLU PARTOUT
+   POLICE BBH SANS BOGLE
 ================================ */
+@font-face {
+  font-family: 'BBH Sans Bogle';
+  src: url('fonts/BBHSansBogle-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+/* ===============================
+   FOND NOIR CINÉMA
+================================ */
 html, body,
 .page-content,
 .wrapper,
@@ -21,114 +29,7 @@ nav {
   background-color: #000000 !important;
 }
 
-/* ===============================
-   TEXTE
-================================ */
-
-body {
-  color: #8b95a5 !important;
-    font-family: 'BBH Sans Bogle', sans-serif;
-    font-weight: 400;
-}
-
-/* ===============================
-   TITRES
-================================ */
-
-@font-face {
-  font-family: 'BBH Sans Bogle';
-  src: url('fonts/BBHSansBogle-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-h1, h2, h3 .titre-bold {
-  font-family: 'BBH Sans Bogle', sans-serif;
-  text-transform: uppercase; /* tout en majuscules */
-}
-
-
-/* ===============================
-   LIENS
-================================ */
-
-a {
-  color: #2f4a7d !important;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #8b95a5 !important;
-  text-decoration: underline;
-}
-
-/* ===============================
-   BORDURES — ÉRADICATION TOTALE DU GRIS
-================================ */
-
-/* TOUTES les bordures visibles */
-*,
-*::before,
-*::after {
-  border-color: #000000 !important;
-  box-shadow: none !important;
-  outline: none !important;
-}
-
-/* Inputs / boutons / formulaires */
-input,
-textarea,
-select,
-button {
-  background-color: #000000 !important;
-  color: #8b95a5 !important;
-  border: 1px solid #000000 !important;
-}
-
-/* Tables */
-table,
-th,
-td {
-  background-color: #000000 !important;
-  border: 1px solid #000000 !important;
-}
-
-/* Séparateurs */
-hr {
-  border: none !important;
-  border-top: 1px solid #000000 !important;
-  margin: 3rem 0;
-}
-
-/* Header */
-header {
-  border-bottom: 1px solid #000000 !important;
-}
-
-/* Footer */
-footer {
-  border-top: 1px solid #000000 !important;
-}
-
-/* ===============================
-   LISTES
-================================ */
-
-li {
-  color: #8b95a5 !important;
-}
-
-/* ===============================
-   RENDU CINÉMA — CENTRÉ & NOIR ABSOLU
-================================ */
-
-/* Fond global (y compris les côtés) */
-html,
-body {
-  background: #000000 !important;
-}
-
-/* Conteneur principal */
+/* Conteneur principal centré */
 .wrapper,
 .container,
 .inner,
@@ -139,7 +40,6 @@ body {
   margin-right: auto !important;
 }
 
-/* Largeur cinéma */
 .inner,
 .container {
   max-width: 880px !important;
@@ -147,7 +47,7 @@ body {
   padding-right: 2.5rem;
 }
 
-/* Suppression définitive des panneaux / dégradés */
+/* Suppression des dégradés et panneaux */
 body::before,
 body::after,
 .wrapper::before,
@@ -157,7 +57,7 @@ body::after,
   background: none !important;
 }
 
-/* Header & footer clean */
+/* Header & Footer clean */
 header,
 .site-header,
 #header,
@@ -166,15 +66,105 @@ footer,
   background: #000000 !important;
   border: none !important;
 }
-/* ===============================
-   YOUTUBE — RENDU CINÉMA
-================================ */
 
+/* ===============================
+   TEXTE PRINCIPAL
+================================ */
+body {
+  font-family: 'BBH Sans Bogle', sans-serif;
+  font-weight: 400;
+  color: #001f3f !important; /* bleu marine */
+}
+
+/* ===============================
+   TITRES
+================================ */
+h1, h2, h3, .titre-bold {
+  font-family: 'BBH Sans Bogle', sans-serif;
+  text-transform: uppercase; /* tout en majuscules */
+  color: #001f3f !important; /* bleu marine */
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* ===============================
+   LIENS
+================================ */
+a {
+  color: #001f3f !important; /* bleu marine */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #003366 !important; /* bleu marine plus foncé au survol */
+  text-decoration: underline;
+}
+
+/* ===============================
+   BORDURES & SHADOWS
+================================ */
+*,
+*::before,
+*::after {
+  border-color: #001f3f !important; /* bleu marine pour bordures */
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* ===============================
+   INPUTS / BOUTONS / FORMULAIRES
+================================ */
+input,
+textarea,
+select,
+button {
+  background-color: #000000 !important;
+  color: #001f3f !important; /* texte bleu marine */
+  border: 1px solid #001f3f !important;
+}
+
+button {
+  font-family: 'BBH Sans Bogle', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: #001f3f !important; /* bouton bleu marine au survol */
+  color: #ffffff !important; /* texte blanc au survol */
+}
+
+/* ===============================
+   TABLES
+================================ */
+table,
+th,
+td {
+  background-color: #000000 !important;
+  border: 1px solid #001f3f !important; /* bordures bleu marine */
+  color: #001f3f !important;
+}
+
+/* ===============================
+   LISTES
+================================ */
+li {
+  color: #001f3f !important; /* bleu marine */
+}
+
+/* ===============================
+   VIDEO CINÉMA
+================================ */
 .video-cinema {
   max-width: 880px;
   margin: 3rem auto;
   position: relative;
-  padding-top: 56.25%; /* format cinéma 16:9 */
+  padding-top: 56.25%; /* format 16:9 */
   background: #000;
   border-radius: 10px;
   overflow: hidden;
@@ -187,4 +177,22 @@ footer,
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+/* ===============================
+   SEPARATEURS
+================================ */
+hr {
+  border: none !important;
+  border-top: 1px solid #001f3f !important; /* bleu marine */
+  margin: 3rem 0;
+}
+
+/* Header & footer bordures */
+header {
+  border-bottom: 1px solid #001f3f !important;
+}
+
+footer {
+  border-top: 1px solid #001f3f !important;
 }
