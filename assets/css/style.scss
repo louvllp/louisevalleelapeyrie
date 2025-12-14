@@ -76,43 +76,48 @@ body {
 /* ===============================
    TITRE PRINCIPAL (NOM) CENTRÉ
 ================================ */
+/* TITRE PRINCIPAL (nom) CENTRÉ */
 h1.site-title {
-  font-family: 'BBH Sans Bogle';
-  text-transform: uppercase;
-  color: #001f3f !important;
-  letter-spacing: 2px;
-  text-align: center; /* titre centré */
-  margin-bottom: 2rem;
-  line-height: 1.2;
+  text-align: center !important;
 }
 
-/* CONTENU PRINCIPAL À GAUCHE */
+/* CONTENEUR PRINCIPAL */
 .wrapper,
 .container,
 .inner,
 #main,
 .page-content {
-  max-width: 880px;    /* largeur cinéma */
+  max-width: 880px;       /* largeur cinéma */
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-  margin-left: 0;      /* plus de centrage automatique */
-  margin-right: 0;
-  text-align: left;    /* texte aligné à gauche */
+  margin-left: 0 !important;   /* suppression du centrage horizontal */
+  margin-right: 0 !important;
+  text-align: left !important; /* texte aligné à gauche */
 }
 
-/* Corps du texte */
-body {
-  font-family: 'BBH Sans Bogle';
-  font-weight: 400;
-  line-height: 1.6;
-  color: #001f3f;
-  text-align: left;    /* texte courant aligné à gauche */
+/* CORPS DU TEXTE */
+body,
+p,
+ul,
+ol,
+h2,
+h3,
+.titre-bold,
+li {
+  text-align: left !important; /* tout aligné à gauche */
 }
 
-/* Titres secondaires alignés à gauche */
-h2, h3, .titre-bold {
-  text-align: left;
+/* VIDÉOS CENTRÉES (optionnel) */
+.video-cinema {
+  max-width: 600px;
+  margin: 3rem auto;       /* centré seulement pour vidéos */
+  position: relative;
+  padding-top: 56.25%;
+  background: #000;
+  border-radius: 10px;
+  overflow: hidden;
 }
+
 
 
 /* ===============================
