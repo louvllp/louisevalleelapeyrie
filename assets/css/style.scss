@@ -6,8 +6,8 @@
 @font-face {
   font-family: 'BBH Sans Bogle';
   src: url('fonts/BBHSansBogle-Regular.ttf') format('truetype');
-  font-weight: BBH Sans Bogle;
-  font-style: BBH Sans Bogle;
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* ===============================
@@ -24,128 +24,66 @@ div,
 article,
 aside,
 nav {
-  background-color: #000000 !important; /* noir absolu */
-  color: #001f3f !important;           /* bleu marine partout */
-}
-
-/* Conteneur principal centré avec largeur cinéma */
-.wrapper,
-.container,
-.inner,
-#main,
-.page-content {
-  background: #000000 !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  max-width: 880px !important; /* largeur cinéma */
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-/* Suppression des panneaux/dégradés */
-body::before,
-body::after,
-.wrapper::before,
-.wrapper::after {
-  content: none !important;
-  display: none !important;
-  background: none !important;
-}
-
-/* Header & Footer clean */
-header,
-.site-header,
-#header,
-footer,
-.site-footer {
-  background: #000000 !important;
-  border: none !important;
-}
-
-/* ===============================
-   TEXTE PRINCIPAL
-================================ */
-body {
-  font-family: 'BBH Sans Bogle', sans-serif;
-  font-weight: 400;
-  color: #001f3f !important; /* bleu marine */
-  line-height: 1.6; /* interligne pour lisibilité */
-  text-align: left; /* texte courant aligné à gauche */
+  background-color: #000000 !important; /* fond noir absolu */
+  color: #001f3f !important;           /* texte bleu marine partout */
+  text-align: left !important;         /* alignement gauche par défaut */
+  font-family: 'BBH Sans Bogle', sans-serif !important;
+  line-height: 1.6 !important;
 }
 
 /* ===============================
    TITRE PRINCIPAL (NOM) CENTRÉ
 ================================ */
-/* TITRE PRINCIPAL (nom) CENTRÉ */
 h1.site-title {
-  text-align: center !important;
+  text-align: center !important;  /* seul le titre principal centré */
+  color: #001f3f !important;
+  font-family: 'BBH Sans Bogle', sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 2rem !important; /* espace sous le titre */
+  line-height: 1.2;
 }
 
-/* CONTENEUR PRINCIPAL */
-.wrapper,
-.container,
-.inner,
-#main,
-.page-content {
-  max-width: 880px;       /* largeur cinéma */
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-  margin-left: 0 !important;   /* suppression du centrage horizontal */
-  margin-right: 0 !important;
-  text-align: left !important; /* texte aligné à gauche */
+/* ===============================
+   AUTRES TITRES
+================================ */
+h2, h3, .titre-bold {
+  text-align: left !important;
+  color: #001f3f !important;
+  font-family: 'BBH Sans Bogle', sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 2rem !important;      /* espace avant le titre */
+  margin-bottom: 1rem !important;   /* espace sous le titre */
+  line-height: 1.3 !important;
 }
 
-/* CORPS DU TEXTE */
-body,
-p,
-ul,
-ol,
-h2,
-h3,
-.titre-bold,
-li {
-  text-align: left !important; /* tout aligné à gauche */
+/* ===============================
+   PARAGRAPHES
+================================ */
+p {
+  text-align: left !important;
+  color: #001f3f !important;
+  font-family: 'BBH Sans Bogle', sans-serif !important;
+  margin-bottom: 1.5rem !important; /* espace entre paragraphes */
+  line-height: 1.6 !important;
 }
-
-/* VIDÉOS CENTRÉES (optionnel) */
-.video-cinema {
-  max-width: 600px;
-  margin: 3rem auto;       /* centré seulement pour vidéos */
-  position: relative;
-  padding-top: 56.25%;
-  background: #000;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-
 
 /* ===============================
    LIENS
 ================================ */
 a {
   color: #001f3f !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:hover {
-  color: #003366 !important; /* bleu plus foncé au survol */
-  text-decoration: underline;
+  color: #003366 !important; /* bleu foncé au survol */
+  text-decoration: underline !important;
 }
 
 /* ===============================
-   BORDURES & SHADOWS
-================================ */
-*,
-*::before,
-*::after {
-  border-color: #001f3f !important;
-  box-shadow: none !important;
-  outline: none !important;
-}
-
-/* ===============================
-   INPUTS / BOUTONS / FORMULAIRES
+   BOUTONS / FORMULAIRES
 ================================ */
 input,
 textarea,
@@ -154,22 +92,30 @@ button {
   background-color: #000000 !important;
   color: #001f3f !important;
   border: 1px solid #001f3f !important;
+  font-family: 'BBH Sans Bogle', sans-serif !important;
 }
 
 button {
-  font-family: 'BBH Sans Bogle', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 12px 24px;
-  cursor: pointer;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
-  background-color: transparent;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  padding: 12px 24px !important;
+  cursor: pointer !important;
+  border-radius: 6px !important;
+  transition: background-color 0.3s ease !important;
+  background-color: transparent !important;
 }
 
 button:hover {
   background-color: #001f3f !important;
   color: #ffffff !important;
+}
+
+/* ===============================
+   LISTES
+================================ */
+li {
+  color: #001f3f !important;
+  margin-bottom: 0.5rem !important; /* espace entre les items */
 }
 
 /* ===============================
@@ -184,20 +130,13 @@ td {
 }
 
 /* ===============================
-   LISTES
-================================ */
-li {
-  color: #001f3f !important;
-}
-
-/* ===============================
-   VIDÉOS (TAILLE RÉDUITE ET CENTRÉES)
+   VIDÉOS
 ================================ */
 .video-cinema {
-  max-width: 600px; /* largeur plus petite */
-  margin: 3rem auto;
+  max-width: 600px;   /* taille raisonnable */
+  margin: 3rem 0;     /* centré verticalement, aligné à gauche */
   position: relative;
-  padding-top: 56.25%; /* ratio 16:9 */
+  padding-top: 56.25%; /* 16:9 */
   background: #000;
   border-radius: 10px;
   overflow: hidden;
@@ -218,7 +157,7 @@ li {
 hr {
   border: none !important;
   border-top: 1px solid #001f3f !important;
-  margin: 3rem 0;
+  margin: 3rem 0 !important;
 }
 
 /* Header & footer bordures */
